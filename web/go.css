@@ -1,0 +1,62 @@
+head {
+    font-family: 'Mitr', sans-serif;
+    
+}
+body  {
+    font-family: 'Mitr', sans-serif;
+    background: rgb(0, 0, 0); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(0, 0, 0) , rgb(255, 255, 255)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(0rgb(255, 255, 255)), rgb(134, 134, 134)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(0rgb(255, 255, 255)), rgb(148, 148, 148)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(0, 0, 0) , rgb(134, 134, 134)); /* Standard syntax */
+        font-size: 50px;
+    font-weight: bold;
+
+
+}
+
+.mid {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.233);
+    width: 80%;
+    height: 50%;
+    display: inline-block;
+    left: 10%;
+    top: 25%;
+    overflow: auto;
+}
+
+.box1 {
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.068);
+    position: fixed;
+    left: 20%;
+    top: 35%;
+    width: 25%;
+    height: 30%;
+    border-radius: 200px;
+
+}
+
+.mid :hover {
+    background-color: black;    
+}
+
+
+.box2 {
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.068);
+    position: fixed;
+    right: 20%;
+    top: 35%;
+    width: 25%;
+    height: 30%;
+    border-radius: 200px;
+}
+
+.text {
+    position: fixed;
+    margin-left: 3%;
+    margin-top: 6%;
+    color: #ffffff;
+}

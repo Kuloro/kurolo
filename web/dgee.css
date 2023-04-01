@@ -1,0 +1,60 @@
+head {
+    font-family: 'Mitr', sans-serif;
+    
+}
+body  {
+    font-family: 'Mitr', sans-serif;
+    background: rgb(0, 0, 0); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(0, 0, 0) , rgb(255, 255, 255)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(0rgb(255, 255, 255)), rgb(134, 134, 134)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(0rgb(255, 255, 255)), rgb(148, 148, 148)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(0, 0, 0) , rgb(134, 134, 134)); /* Standard syntax */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.highlight {
+    padding-top: 5%;
+    position: relative;
+    text-align: center;
+}
+
+.number {
+    height: 40%;
+    width: 60%;
+    background-color: aquamarine;
+}
+
+.box {
+    left: 30%;
+    margin-left: 50px;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.index {
+    padding-right: 50px;
+    width: 200px;
+    text-align: end;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: #202020;
+    text-decoration: none;
+    background-color: rgba(240, 248, 255, 0.308);
+}
+.submit {
+    top: 500px;
+    left: 85px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+.subtext {
+    position: fixed;
+    right: 300px;
+}
