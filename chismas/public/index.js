@@ -1,0 +1,1 @@
+document.getElementById("wish").innerHTML  =  wish
